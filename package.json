@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -17,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "vercel-build": "CI=false npm run build"
+    "vercel-build": "npm install --legacy-peer-deps && CI=false npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,10 +48,9 @@
     "@babel/plugin-transform-private-property-in-object": "^7.27.1",
     "@eslint/config-array": "^0.21.1",
     "autoprefixer": "^10.4.14",
-    "eslint": "^9.38.0",
+    "eslint": "^8.0.0",
     "eslint-config-react-app": "^7.0.1",
     "postcss": "^8.4.24",
-    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.0"
   }
 }
