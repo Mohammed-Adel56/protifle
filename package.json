@@ -38,7 +38,17 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.27.1",
+    "@babel/plugin-transform-numeric-separator": "^7.27.1",
+    "@babel/plugin-transform-optional-chaining": "^7.28.5",
+    "@babel/plugin-transform-private-methods": "^7.27.1",
+    "@babel/plugin-transform-private-property-in-object": "^7.27.1",
+    "@eslint/config-array": "^0.21.1",
     "autoprefixer": "^10.4.14",
+    "eslint": "^9.38.0",
+    "eslint-config-react-app": "^7.0.1",
     "postcss": "^8.4.24",
     "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.0"
