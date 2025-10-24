@@ -15,7 +15,7 @@ const Experience = () => {
       company: "Informatique Education",
       type: "Current Position",
       description:
-        "Developing modern web applications and educational platforms using React, Next.js, and modern web technologies. Creating responsive and interactive user interfaces for educational content.",
+        "Developing modern web applications and educational platforms using Vue 3 and modern web technologies. Creating responsive and interactive user interfaces for educational content.",
       icon: FaCode,
       color: "bg-blue-500",
       status: "current",
